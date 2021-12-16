@@ -1,0 +1,19 @@
+platform :ios, '9.0'
+inhibit_all_warnings!
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'MVPCase' do
+
+
+  # Pods for 001---直播架构搭建
+  #pod 'AFNetworking','~> 4.0.1'
+  pod 'AFNetworking','~> 2.0'
+  pod "AFDownloadRequestOperation", "~> 2.0.1"
+  pod 'MBProgressHUD', '~> 1.1.0'
+  pod 'MSWeakTimer', '~> 1.1.0'
+  pod 'pop', '~> 1.0'
+pod 'Masonry', '~> 1.1.0'
+pod 'TYAttributedLabel', '~> 2.6.9'
+
+
+end
