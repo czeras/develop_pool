@@ -110,8 +110,6 @@
 		BC1AE1AF276B2F5F00058500 /* KCBaseTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = BC1AE19C276B2F5F00058500 /* KCBaseTableView.m */; };
 		BC1AE1B0276B2F5F00058500 /* KCBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC1AE19F276B2F5F00058500 /* KCBaseNavigationController.m */; };
 		BCD406C8276A09040005ACEE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD406C7276A09040005ACEE /* AppDelegate.m */; };
-		BCD406CB276A09040005ACEE /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD406CA276A09040005ACEE /* SceneDelegate.m */; };
-		BCD406CE276A09040005ACEE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD406CD276A09040005ACEE /* ViewController.m */; };
 		BCD406D1276A09040005ACEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCD406CF276A09040005ACEE /* Main.storyboard */; };
 		BCD406D3276A09050005ACEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCD406D2276A09050005ACEE /* Assets.xcassets */; };
 		BCD406D6276A09050005ACEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCD406D4276A09050005ACEE /* LaunchScreen.storyboard */; };
@@ -280,10 +278,6 @@
 		BCD406C3276A09040005ACEE /* MVPCase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVPCase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCD406C6276A09040005ACEE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BCD406C7276A09040005ACEE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		BCD406C9276A09040005ACEE /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		BCD406CA276A09040005ACEE /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		BCD406CC276A09040005ACEE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		BCD406CD276A09040005ACEE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		BCD406D0276A09040005ACEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BCD406D2276A09050005ACEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BCD406D5276A09050005ACEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -649,7 +643,6 @@
 			isa = PBXGroup;
 			children = (
 				BC1AE173276B2F5F00058500 /* SharedConfig.h */,
-				BC1AE174276B2F5F00058500 /* UI */,
 				BC1AE175276B2F5F00058500 /* CDD */,
 				BC1AE17A276B2F5F00058500 /* SharedLib */,
 				BC1AE18F276B2F5F00058500 /* SharedMacro.h */,
@@ -659,13 +652,6 @@
 				BC1AE193276B2F5F00058500 /* Base */,
 			);
 			path = Common;
-			sourceTree = "<group>";
-		};
-		BC1AE174276B2F5F00058500 /* UI */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = UI;
 			sourceTree = "<group>";
 		};
 		BC1AE175276B2F5F00058500 /* CDD */ = {
@@ -767,10 +753,6 @@
 				BC1AE08D276B2F1F00058500 /* Resources */,
 				BCD406C6276A09040005ACEE /* AppDelegate.h */,
 				BCD406C7276A09040005ACEE /* AppDelegate.m */,
-				BCD406C9276A09040005ACEE /* SceneDelegate.h */,
-				BCD406CA276A09040005ACEE /* SceneDelegate.m */,
-				BCD406CC276A09040005ACEE /* ViewController.h */,
-				BCD406CD276A09040005ACEE /* ViewController.m */,
 				BC1AE082276B1B4C00058500 /* Supporting Files */,
 			);
 			path = MVPCase;
@@ -952,7 +934,6 @@
 				BC1AE1AB276B2F5F00058500 /* KCBasePresenter.m in Sources */,
 				BC1AE1AC276B2F5F00058500 /* KCBaseCollectionView.m in Sources */,
 				BC1AE158276B2F4A00058500 /* KCLiveStreamPresenter+Gift.m in Sources */,
-				BCD406CE276A09040005ACEE /* ViewController.m in Sources */,
 				BC1AE1A3276B2F5F00058500 /* UIView+EFrame.m in Sources */,
 				BC1AE161276B2F4A00058500 /* KCLiveStreamGiftSelectionHolder.m in Sources */,
 				BC1AE1A0276B2F5F00058500 /* NSObject+KCDD.m in Sources */,
@@ -981,7 +962,6 @@
 				BC1AE1A6276B2F5F00058500 /* UIImageEX.m in Sources */,
 				BCD406D9276A09050005ACEE /* main.m in Sources */,
 				BC1AE157276B2F4A00058500 /* KCLiveStreamInteractor.m in Sources */,
-				BCD406CB276A09040005ACEE /* SceneDelegate.m in Sources */,
 				BC1AE166276B2F4A00058500 /* KCLiveStreamShareHolder.m in Sources */,
 				BC1AE15E276B2F4A00058500 /* KCLiveStreamGiftChannelMessage.m in Sources */,
 				BC1AE169276B2F4A00058500 /* KCLiveStreamTableView.m in Sources */,
@@ -1137,9 +1117,9 @@
 				INFOPLIST_FILE = "MVPCase/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1148,7 +1128,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.czeras.MVPCase;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -1166,9 +1146,9 @@
 				INFOPLIST_FILE = "MVPCase/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1177,7 +1157,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.czeras.MVPCase;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

@@ -12,12 +12,18 @@
 
 - (void)gotoLiveStream{
     
-    [self.baseController presentViewController:[[KCLiveStreamViewController alloc] init] animated:YES completion:^{
-       
-        KCLog(@"进入直播间");
-    }];
     
+    KCLiveStreamViewController *liveVC = [[KCLiveStreamViewController alloc] init];
     
+//    [self.baseController.navigationController presentViewController:liveVC animated:YES completion:^{
+//        KCLog(@"进入直播间");
+//    }];
+
+//    [self.baseController.navigationController presentViewController:liveVC animated:YES completion:^{
+//        KCLog(@"进入直播间");
+//    }];
+
+    [self.baseController.navigationController pushViewController:liveVC animated:YES];
 }
 
 @end

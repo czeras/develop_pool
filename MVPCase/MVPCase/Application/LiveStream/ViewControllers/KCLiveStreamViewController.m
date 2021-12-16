@@ -16,8 +16,6 @@
 
 @implementation KCLiveStreamViewController
 
-// MVC
-// MVP
 
 
 - (void)viewDidLoad {

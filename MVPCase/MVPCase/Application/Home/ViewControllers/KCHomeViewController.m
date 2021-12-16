@@ -34,6 +34,14 @@
 - (void)didSelectCellData:(id)cellData{
     
     KC(self.context.interactor, KCHomePresentDelegate, gotoLiveStream);
+    
+//    KCLiveStreamViewController *liveVC = [[KCLiveStreamViewController alloc] init];
+//    [self.navigationController pushViewController:liveVC animated:YES];
+    
+}
+
+-(void)dealloc{
+    NSLog(@"");
 }
 
 /*

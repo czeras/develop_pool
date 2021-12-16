@@ -20,7 +20,8 @@
 @end
 
 @interface KCDDInteractor : NSObject
-@property (nonatomic, weak) UIViewController*           baseController;
+//@property (nonatomic, weak) UIViewController*           baseController;
+@property (nonatomic, weak) UINavigationController*       baseController;
 @end
 
 

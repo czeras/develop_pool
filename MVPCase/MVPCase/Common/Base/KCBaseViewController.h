@@ -6,12 +6,13 @@
 //  Copyright © 2018 cooci. All rights reserved.
 //
 
-#import "ViewController.h"
+
+#import <UIKit/UIKit.h>
 
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface KCBaseViewController : ViewController
+@interface KCBaseViewController : UIViewController
 
 @property (nonatomic, strong) KCDDContext    *rootContext;
 - (void)configMVP:(NSString*)name;
