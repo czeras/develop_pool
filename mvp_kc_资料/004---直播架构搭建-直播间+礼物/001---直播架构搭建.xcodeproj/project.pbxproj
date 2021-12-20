@@ -683,9 +683,6 @@
 		7A0074D1217ECC3600700169 /* Application */ = {
 			isa = PBXGroup;
 			children = (
-				BC1AE331276B648100058500 /* test3 */,
-				BC1AE330276B647700058500 /* test2 */,
-				BC1AE32F276B646E00058500 /* test1 */,
 				7A2D8EE3217F331700172B06 /* LiveStream */,
 				7A0074D3217EDA2900700169 /* Home */,
 			);
@@ -1399,27 +1396,6 @@
 				BC1AE30D276B624B00058500 /* home_message@2x.png */,
 			);
 			path = "图片";
-			sourceTree = "<group>";
-		};
-		BC1AE32F276B646E00058500 /* test1 */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = test1;
-			sourceTree = "<group>";
-		};
-		BC1AE330276B647700058500 /* test2 */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = test2;
-			sourceTree = "<group>";
-		};
-		BC1AE331276B648100058500 /* test3 */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = test3;
 			sourceTree = "<group>";
 		};
 		F646B8873A130BBDE3FFEEF4 /* Frameworks */ = {

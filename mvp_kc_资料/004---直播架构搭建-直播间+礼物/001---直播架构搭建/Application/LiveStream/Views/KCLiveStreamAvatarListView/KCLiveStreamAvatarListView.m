@@ -18,8 +18,8 @@
 {
     self = [super init];
     if (self) {
-//        self.backgroundColor = [UIColor randomColor];
-        self.backgroundColor = [UIColor clearColor];
+        self.backgroundColor = [UIColor randomColor];
+//        self.backgroundColor = [UIColor clearColor];
     }
     return self;
 }
