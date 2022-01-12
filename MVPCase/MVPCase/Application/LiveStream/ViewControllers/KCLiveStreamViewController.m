@@ -16,6 +16,8 @@
 
 @implementation KCLiveStreamViewController
 
+// MVC
+// MVP
 
 
 - (void)viewDidLoad {
@@ -30,7 +32,6 @@
     KC(self.view, KCLiveStreamPresenterDeleagte, buildLiveStreamViewWithAdapter:self.adapter);
    
     KC(self.context.presenter, KCLiveStreamPresenterDeleagte, startLikeAnimating);
-    
 }
 
 - (void)viewWillAppear:(BOOL)animated

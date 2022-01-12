@@ -6,10 +6,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MXBADelegate.h"
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface AppDelegate : MXBADelegate
 
-@property (strong, nonatomic) UIWindow *window;
+@property (nonatomic, strong) CALayer *brightnessLayer;
+@property (nonatomic, strong) NSData *deviceToken;
 
 @end
 

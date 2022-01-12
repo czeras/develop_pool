@@ -9,6 +9,9 @@
 #import <Foundation/Foundation.h>
 
 @interface UIFont (App)
+{
+
+}
 
 + (UIFont*)appFontOfSize:(CGFloat)size;
 + (UIFont*)boldAppFontOfSize:(CGFloat)size;

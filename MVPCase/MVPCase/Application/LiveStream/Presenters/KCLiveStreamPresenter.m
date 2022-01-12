@@ -136,9 +136,12 @@ static int tapBCount = 0;
 
 - (void)didClickAvatarImageToQQKe{
     
-    [self.baseController presentViewController:[KCLiveViewController new] animated:YES completion:^{
-        KCLog(@"打开腾讯直播间");
-    }];
+//    [self.baseController presentViewController:[KCLiveViewController new] animated:YES completion:^{
+//        KCLog(@"打开腾讯直播间");
+//    }];
+    
+    
+    [self.baseController.navigationController pushViewController:[KCLiveViewController new] animated:YES];
 }
 
 @end

@@ -7,23 +7,25 @@
 //
 
 #import "KCHomeInteractor.h"
+#import "MXBADelegate.h"
 
 @implementation KCHomeInteractor
 
 - (void)gotoLiveStream{
     
-    
-    KCLiveStreamViewController *liveVC = [[KCLiveStreamViewController alloc] init];
-    
-//    [self.baseController.navigationController presentViewController:liveVC animated:YES completion:^{
+//    [self.baseController presentViewController:[[KCLiveStreamViewController alloc] init] animated:YES completion:^{
+//
 //        KCLog(@"进入直播间");
 //    }];
+    
+    
+    
+    
+    KCLiveStreamViewController *player = [[KCLiveStreamViewController alloc] init];
 
-//    [self.baseController.navigationController presentViewController:liveVC animated:YES completion:^{
-//        KCLog(@"进入直播间");
-//    }];
-
-    [self.baseController.navigationController pushViewController:liveVC animated:YES];
+    [[MXBADelegate sharedAppDelegate] pushViewController:player animated:YES];
+    
+    
 }
 
 @end

@@ -60,6 +60,7 @@ xxx \
 
 
 
+
 // 测试method执行时间, 限制在同一个method之内
 #define TICK   NSDate *startTime = [NSDate date];
 #define TOCK   CCLog(@"Executing Time of %@: %f ms", NSStringFromSelector(_cmd), -[startTime timeIntervalSinceNow]*1000);
@@ -78,5 +79,30 @@ _Pragma("clang diagnostic pop") \
 } while (0)
 
 
+
+
+
+//适配iphoneX
+#define iPhoneX (_window_width== 375.f && _window_height == 812.f)||(_window_width== 414.f && _window_height == 896.f)
+#define ShowDiff (iPhoneX ? 34: 0)
+#define statusbarHeight ([[UIApplication sharedApplication] statusBarFrame].size.height-20)
+
+#define UIColorFromRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 \
+green:((float)((rgbValue & 0xFF00) >> 8))/255.0 \
+blue:((float)(rgbValue & 0xFF))/255.0 \
+alpha:1.0]
+
+#define normalColors [UIColor colorWithRed:255/255.0 green:97/255.0 blue:49/255.0 alpha:1]
+
+#define RGB_COLOR(_STR_,a) ([UIColor colorWithRed:[[NSString stringWithFormat:@"%lu", strtoul([[_STR_ substringWithRange:NSMakeRange(1, 2)] UTF8String], 0, 16)] intValue] / 255.0 green:[[NSString stringWithFormat:@"%lu", strtoul([[_STR_ substringWithRange:NSMakeRange(3, 2)] UTF8String], 0, 16)] intValue] / 255.0 blue:[[NSString stringWithFormat:@"%lu", strtoul([[_STR_ substringWithRange:NSMakeRange(5, 2)] UTF8String], 0, 16)] intValue] / 255.0 alpha:a])
+
+#define _pageBarWidth  _window_width *0.7
+#define  _window_width  [UIScreen mainScreen].bounds.size.width
+#define _window_height [UIScreen mainScreen].bounds.size.height
+
+#define RGB(r,g,b)          [UIColor colorWithRed:(r)/255.f \
+green:(g)/255.f \
+blue:(b)/255.f \
+alpha:1.f]
 
 #endif /* SharedMacro_h */

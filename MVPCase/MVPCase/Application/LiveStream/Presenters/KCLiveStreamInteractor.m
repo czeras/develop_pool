@@ -7,6 +7,7 @@
 //
 
 #import "KCLiveStreamInteractor.h"
+#import "MXBADelegate.h"
 
 @implementation KCLiveStreamInteractor
 
@@ -14,8 +15,18 @@
     
     KC(self.context.presenter, KCLiveStreamPresenterDeleagte, stopLikeAnimating);
 
-    [self.baseController dismissViewControllerAnimated:YES completion:^{
-        KCLog(@"退出直播间");
-    }];
+//    [self.baseController dismissViewControllerAnimated:YES completion:^{
+//        KCLog(@"退出直播间");
+//    }];
+    
+    
+//    KCLiveStreamViewController *player = [[KCLiveStreamViewController alloc] init];
+
+//    [[MXBADelegate sharedAppDelegate] pushViewController:player animated:YES];
+    
+//    [[MXBADelegate sharedAppDelegate] popViewController:YES];
+    
+    [self.baseController.navigationController popViewControllerAnimated:YES];
+    KCLog(@"退出直播间");
 }
 @end

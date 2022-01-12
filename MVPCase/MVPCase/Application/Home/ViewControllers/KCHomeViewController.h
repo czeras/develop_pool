@@ -7,11 +7,10 @@
 //
 
 #import "KCBaseViewController.h"
-#import "KCBaseNavigationController.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface KCHomeViewController : KCBaseNavigationController
+@interface KCHomeViewController : KCBaseViewController
 
 @end
 

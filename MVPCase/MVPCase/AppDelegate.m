@@ -6,8 +6,7 @@
 //
 
 #import "AppDelegate.h"
-
-#import "KCHomeViewController.h"
+#import "ZYTabBarController.h"
 
 @interface AppDelegate ()
 
@@ -20,15 +19,12 @@
     // Override point for customization after application launch.
     
     
-    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:[[ZYTabBarController alloc]init]];
+    
+    self.window = [[UIWindow alloc]initWithFrame:CGRectMake(0,0,_window_width, _window_height)];
     [self.window makeKeyAndVisible];
     
-    
-    
-//    self.window.rootViewController =  [[UINavigationController alloc] initWithRootViewController:[[KCHomeViewController alloc] init]];
-    
-    
-    self.window.rootViewController =  [[KCHomeViewController alloc] init];
+    self.window.rootViewController =  nav;
     
     
     return YES;
