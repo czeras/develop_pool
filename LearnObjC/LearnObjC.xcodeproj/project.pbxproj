@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		9DB19D4C284CE0BF00CA4A7F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DB19D4B284CE0BF00CA4A7F /* AppDelegate.m */; };
-		9DB19D4F284CE0BF00CA4A7F /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DB19D4E284CE0BF00CA4A7F /* SceneDelegate.m */; };
 		9DB19D52284CE0BF00CA4A7F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DB19D51284CE0BF00CA4A7F /* ViewController.m */; };
 		9DB19D55284CE0BF00CA4A7F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DB19D53284CE0BF00CA4A7F /* Main.storyboard */; };
 		9DB19D57284CE0C200CA4A7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DB19D56284CE0C200CA4A7F /* Assets.xcassets */; };
@@ -20,8 +19,6 @@
 		9DB19D47284CE0BF00CA4A7F /* LearnObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearnObjC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DB19D4A284CE0BF00CA4A7F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9DB19D4B284CE0BF00CA4A7F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		9DB19D4D284CE0BF00CA4A7F /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		9DB19D4E284CE0BF00CA4A7F /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		9DB19D50284CE0BF00CA4A7F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		9DB19D51284CE0BF00CA4A7F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		9DB19D54284CE0BF00CA4A7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -63,8 +60,6 @@
 			children = (
 				9DB19D4A284CE0BF00CA4A7F /* AppDelegate.h */,
 				9DB19D4B284CE0BF00CA4A7F /* AppDelegate.m */,
-				9DB19D4D284CE0BF00CA4A7F /* SceneDelegate.h */,
-				9DB19D4E284CE0BF00CA4A7F /* SceneDelegate.m */,
 				9DB19D50284CE0BF00CA4A7F /* ViewController.h */,
 				9DB19D51284CE0BF00CA4A7F /* ViewController.m */,
 				9DB19D53284CE0BF00CA4A7F /* Main.storyboard */,
@@ -149,7 +144,6 @@
 				9DB19D52284CE0BF00CA4A7F /* ViewController.m in Sources */,
 				9DB19D4C284CE0BF00CA4A7F /* AppDelegate.m in Sources */,
 				9DB19D5D284CE0C200CA4A7F /* main.m in Sources */,
-				9DB19D4F284CE0BF00CA4A7F /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,7 +293,6 @@
 				INFOPLIST_FILE = LearnObjC/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
@@ -327,7 +320,6 @@
 				INFOPLIST_FILE = LearnObjC/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
